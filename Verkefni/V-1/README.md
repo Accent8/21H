@@ -6,6 +6,6 @@ Nemendur öðlast skilning á skipulagningu stílsíðukerfis og á hönnun CSS 
 #### ath! þarf að búa til nýja verkefnalýsingu (áður 5.verkefni)
 
 * [Verkefnalýsing]()
-* [Fylgigögn](https://github.com/vefhonnun/21V/tree/main/S%C3%BDnid%C3%A6mi/V-1)
+* [Fylgigögn](https://github.com/vefhonnun/21H/tree/main/S%C3%BDnid%C3%A6mi/V-1)
 
 #### Einkunn verður birt í Innu
