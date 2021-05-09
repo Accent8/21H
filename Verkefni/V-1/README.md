@@ -1,9 +1,9 @@
-# Verkefni 1. KVIKUN
+# CSS grunnform - _CSS boilerplate_
 
 ### Markmið:
-Nemendur eiga að öðlast skilning á hvenig hægt er að nota CSS kvikun til að lífga upp á vefsíður og vekja athygli notenda á einstökum hlutum síðunnar. 
+Nemendur öðlast skilning á skipulagningu stílsíðukerfis og á hönnun CSS grunnsíðu (_Boilerplate_)  til að hanna betri vefsíður.
 
-* [Verkefnalýsing](Verkefni_1.pdf)
-* [Fylgigögn](https://github.com/vefhonnun/21V/tree/main/S%C3%BDnid%C3%A6mi/V-1)
+* [Verkefnalýsing](https://github.com/vefhonnun/21V/blob/main/Verkefni/V-5/Verkefni_5.pdf)
+* [Fylgigögn](https://github.com/vefhonnun/21V/tree/main/S%C3%BDnid%C3%A6mi/V-5)
 
 #### Einkunn verður birt í Innu
