@@ -1,6 +1,6 @@
 # Töflur og form
 
-## Verkefni 4.1 - Töflur  
+## Verkefni 2.1 - Töflur  
 
 [Meðfylgjandi upplýsingar](https://github.com/vefhonnun/21V/tree/main/S%C3%BDnid%C3%A6mi/V-4) á að setja í HTML töflu og þær eiga að vera skilmerkilega settar upp. Í stílsíðu er hægt að nota gerviklasa (Pseudo class - nth-child) til að fá litskiptingu í bakgrunn töflunnar. 
 
@@ -14,7 +14,7 @@ Mynd 2. Viðmið 0 – 48 em (0 – 760px)
 
 ![Mynd 2](mynd-2.jpg)
 
-## Verkefni 4.2 - Form 
+## Verkefni 2.2 - Form 
 
 Setjið skráningarform inn á vefsíðu, formið á að vera sýnilegt í öllum helstu skjástærðum. 
 

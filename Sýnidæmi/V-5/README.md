@@ -1,15 +1,29 @@
-# CSS skipulag
+# HTML kvikun (_Animation_) 
 
-### Markmið:
-Nemendur öðlast skilning á hönnun CSS grunnsíðu (_Boilerplate_).
+### HTML
 
-Meðfylgjandi er CSS grunnur (boilerplate) sem þú getur hlaðið á þína tölvu og notað til að hanna frábærar vefsíður :smile:
+```HTML
+<div class="kvikun"></div>
+```
+### CSS
 
-#### Hvernig á að sameina margar CSS skrár í eina skrá
+```CSS
+.kvikun {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 
-1. Opna línuskipanaforrit (CMP) 
-2. `cd ../css` (vísa CMP í css möppuna)
-3. `dir *.css ` (sýna allar css skrár)
-4. `copy *.css styles.css ` (afritar allar .css skrár í styles.css)
-
-[Heimild](https://www.youtube.com/watch?v=2VrfUyyqdEc)
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+```
+[W3schools CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
