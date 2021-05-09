@@ -1,4 +1,4 @@
-#### [Námsáætlun](https://github.com/vefhonnun/21H/wiki) | [Bjargir](https://github.com/vefhonnun/21V/wiki/Bjargir)
+#### [Námsáætlun]([Námsáætlun](https://github.com/vefhonnun/21H/blob/main/Verkefni/VEF2VH05BU_V21-2.pdf) | [Bjargir](https://github.com/vefhonnun/21H/wiki/Bjargir)
 
 <img src="https://github.com/vefhonnun/21V/blob/main/S%C3%BDnid%C3%A6mi/img/21VHB-logo.jpg" width="180" height="180" />
 
