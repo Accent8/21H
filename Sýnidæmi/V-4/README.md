@@ -1,6 +1,5 @@
 # CSS breytur og fleiri stílbrögð
 
-### nýtt verkefni hér
+### ný verkefnadæmi koma hér
 
 
-[SVG kvikun dæmi](jimmihendrix.md)
