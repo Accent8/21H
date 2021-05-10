@@ -42,6 +42,17 @@ Dæmi:
 * Heiti fyritækisins **X** (_sem þið ákveðið_) 
 * Fyrirtækið sérhæfir sig í útgáfu/framleiðslu á **XY** (_sem þið ákveðið_)
 
+### Skipurit
+
+```
+  Forsíða (index) - stutt lýsing á hvað á að vera á forsíðunni
+  |_ Um okkur - stutt lýsing á hvað á að vera á síðunni (eða undirkafla)
+  |_ Dagskrá eða Vöru- þjónustulýsing í stuttu máli
+  |_ Pöntunarsíða - stutt lýsing á hvernig samskiptin eiga að vera
+  |_ Annað sem á að vera í vefnum - stutt lýsing
+  
+```
+
 ### Flæði - _"Wireframe"_ 
 
 * Myndir _(skissur)_ sem sýna skipulag vefsins og virkni á milli síðna. Útfærslan er í ykkar höndum, t.d. getur hún verið teikning á blaði sem er ljósmynduð og skilað á .jpg formati
