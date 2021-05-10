@@ -1,4 +1,6 @@
-# CSS Flóknir stílar - í vinnslu.  
+# CSS breytur og fleiri stílbrögð
+
+## - í vinnslu.  
 
 ### Markmið:
 Nemendur eiga að öðlast skilning á hvernig hægt er að nota breytur og aðrar flóknar aðgerðir í CSS stílsíðu.
