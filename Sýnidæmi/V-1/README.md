@@ -16,5 +16,3 @@ Meðfylgjandi er CSS grunnur (boilerplate) sem þú getur hlaðið á þína tö
 2. `cd ../css` (vísa CMP í css möppuna)
 3. `dir *.css ` (skoða allar css skrár)
 4. `copy *.css styles.css ` (afrita allar .css skrár í eina: styles.css)
-
-[Heimild](https://www.youtube.com/watch?v=2VrfUyyqdEc)
