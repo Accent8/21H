@@ -5,13 +5,11 @@ Tabular Data <td> er eina tagið sem er hannað til að sækja gögn af miðlara
 Töflur henta ekki í skipulagshönnun vefsíðu. Önnur tög henta betur fyrir texta og myndir. 
 "Table" tagið er erfitt að eiga við þegar kemur að sveigjanleika vefsíðu og best að nota það ekki nema þegar um gagnvirkar færslur er að ræða.  En ef um tiltötlulega fáa dálka er að ræða er hægt að nota aðferð sem er [útskrýrð nánar hér](https://allthingssmitty.com/2016/10/03/responsive-table-layout/)
 
-Notaðu töfluna hér að neðan sem grunn að þínu verkefni. Settu eigin texta og gildi í töfluna. 
-
 ```HTML
 <table>
     <caption>Titill töflu</caption>
     <thead>
-        <tr> 
+        <tr>
             <th scope="col"> </th>
             <th scope="col">A</th>
             <th scope="col">B</th>
