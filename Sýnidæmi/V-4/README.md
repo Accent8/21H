@@ -1,5 +1,4 @@
-# CSS breytur og fleiri stílbrögð
+# Sérsniðin eigindi og fleiri stílbrögð
 
-### ný verkefnadæmi koma hér
-
-
+* [Sérsniðin eigindi](variables.html) 
+* [Eiginda veljari - Attribute Selectors](attributes.html)
