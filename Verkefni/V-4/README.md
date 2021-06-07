@@ -9,11 +9,6 @@ Nemendur eiga að öðlast skilning á hvernig hægt er að nota breytur og aðr
 
 ### CSS gerviklasar (_pseudo classes_)
 
-### Námsmat 14% af heildareinkunn:
-
-* 7%   CSS breytur (_Variables_)
-* 7%   CSS gerviklasar (_pseudo classes_)
-
 #### Verkefnaskil:   Öllum gögnum er skilað í Github áfangageymsluna	
 
 * [Fylgigögn](https://github.com/vefhonnun/21H/tree/main/S%C3%BDnid%C3%A6mi/V-4/)
