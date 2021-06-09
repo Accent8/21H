@@ -1,6 +1,4 @@
-# CSS breytur og fleiri stílbrögð
-
-## - í vinnslu.  
+# CSS breytur og fleiri stílbrögð 
 
 ### Markmið:
 Nemendur eiga að öðlast skilning á hvernig hægt er að nota breytur og aðrar flóknar aðgerðir í CSS stílsíðu.
@@ -11,6 +9,7 @@ Nemendur eiga að öðlast skilning á hvernig hægt er að nota breytur og aðr
 
 #### Verkefnaskil:   Öllum gögnum er skilað í Github áfangageymsluna	
 
+* [Verkefnalýsing](https://github.com/vefhonnun/21H/blob/main/Verkefni/V-4/Verkefni_4.pdf)
 * [Fylgigögn](https://github.com/vefhonnun/21H/tree/main/S%C3%BDnid%C3%A6mi/V-4/)
 
 #### Einkunn verður birt í Innu
