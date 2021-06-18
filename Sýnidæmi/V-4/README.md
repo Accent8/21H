@@ -6,7 +6,7 @@
 #### Þjöppun CSS kóða
 
 * Sækið viðbót (Extension) í Visual Studio Code sem heitir "CSS Compressor" 
-* Notið skipunina: [shift]+[alt]+[f] til að þjappa (_Compact_) kóðann saman
+* Til að þjappa (_Compact_) kóðann sama notið skipunina: `[shift]+[alt]+[f]`
 
 #### Hvernig á að sameina margar CSS skrár í eina skrá
 
