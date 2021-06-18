@@ -1,4 +1,4 @@
-# Dæmi
+# Dæmi um viðburði
 
 #### Ráðstefnur
 
