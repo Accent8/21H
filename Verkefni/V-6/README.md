@@ -1,10 +1,16 @@
 # Undirbúningur og skipulagning vefs
 
-### Markmið:
-
-Nemendur geta skipulagt og undirbúið vefgögn til fullvinnslu vefs. 
-
 Verkefni 6 er undirbúningsvinna og skipulagning lokaverkefnisins. Verkefnið felst í að skipuleggja og undirbúa gerð kynningarvefs. Umfjöllunarefnið er frjálst.  Nemendur geta unnið verkefnið sem einstaklingsverkefni eða tveir saman. 
+
+#### Markmið
+
+Nemendur geta unnið skipulega að:
+
+* Efnisöflun og hugmyndavinnu
+* Verkáætlun í Github _"Project"_
+* Vefyfirlit - _"SiteMap"_
+* Tengirit - _"WireFrame"_
+* Frumgerð - _"Prototype"_ 
 
 ### Verkefnastjórn
 
