@@ -1,7 +1,12 @@
 # Sérsniðin eigindi og fleiri stílbrögð
 
 * [Sérsniðin eigindi](variables.html) 
-* [Eiginda veljari - Attribute Selectors](attributes.html)
+* [Eiginda-veljari - Attribute Selectors](attributes.html)
+
+#### Þjöppun CSS kóða
+
+* Sækið viðbót (Extension) í Visual Studio Code sem heitir "CSS Compressor" 
+* Notið skipunina: [shift]+[alt]+[f] til að þjappa (_Compact_) kóðann saman
 
 #### Hvernig á að sameina margar CSS skrár í eina skrá
 
