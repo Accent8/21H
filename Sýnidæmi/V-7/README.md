@@ -2,11 +2,12 @@
 
 #### Ráðstefnur
 
-[IAC21 Anywhere](https://www.theiaconference.com/)
-[Confab](https://www.confabevents.com/)
+* [IAC21 Anywhere](https://www.theiaconference.com/)
+* [Confab](https://www.confabevents.com/)
 
 #### Hátíðir
 
-[Norðan Paunk](https://www.nordanpaunk.org/)
+* [RIFF](https://riff.is/)
+* [Norðan Paunk](https://www.nordanpaunk.org/)
 
 
