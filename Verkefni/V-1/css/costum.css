@@ -2,6 +2,19 @@
 /* Afritið (copy) allan css kóðann sem þið notið yfir í "styles.css" */
 /* notið skipunina: [shift]+[alt]+[f] til að þjappa (Compact) allan kóðann saman */
 .container div {
-    background-image: url("values-bg.jpg");
+    background-image: url(images/values-bg.jpg);
     background-color: #cccccccc;
+    padding: 0em;
+}
+#tafla {
+    display: none;
+}
+#myndir {
+    display: none;
+}
+#cssgrid {
+    display: none;
+}
+.container center {
+    display: none;
 }
