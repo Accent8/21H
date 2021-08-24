@@ -1,10 +1,9 @@
-/* Sækið viðbót (Extension) í VSC sem heitir "CSS Compressor" */
-/* Afritið (copy) allan css kóðann sem þið notið yfir í "styles.css" */
-/* notið skipunina: [shift]+[alt]+[f] til að þjappa (Compact) allan kóðann saman */
-.container div {
-    background-image: url(images/values-bg.jpg);
-    background-color: #cccccccc;
-    padding: 0em;
+.percent {
+    background-image: url(../images/values-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: none; 
 }
 #tafla {
     display: none;
@@ -16,5 +15,11 @@
     display: none;
 }
 .container center {
+    display: none;
+}
+#button {
+    display: none;
+}
+#none {
     display: none;
 }
