@@ -26,3 +26,14 @@
 .button {
     display: none;
 }
+.descri {
+    padding-left: 0.5em;
+}
+.footer {
+    background-color: rgb(23,144,135);
+    background-size: cover;
+    max-width: none;
+}
+.botn {
+    color: white;
+}
