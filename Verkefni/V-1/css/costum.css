@@ -37,3 +37,25 @@
 .botn {
     color: white;
 }
+.simi {
+    transform: rotate(5deg);
+}
+.hringur { 
+    background: white;
+    border-radius: 100%;
+}
+.col-3-toppur {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.col-3-midja {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.copy {
+    color: black;
+}
