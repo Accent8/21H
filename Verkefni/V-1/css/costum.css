@@ -4,6 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     max-width: none; 
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
 }
 #tafla {
     display: none;
@@ -36,14 +39,19 @@
 }
 .botn {
     color: white;
+    max-width: none;
 }
 .simi {
     transform: rotate(5deg);
 }
 .hringur { 
-    background: white;
-    border-radius: 100%;
-}
+    border: 2px white solid;
+    border-radius: 50%;
+    width: 1.7em;
+    margin: 0 auto;
+    padding: .4em;
+    color: white;
+} 
 .col-3-toppur {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -57,5 +65,7 @@
     text-align: center;
 }
 .copy {
+    align-items: center;
+    text-align: center;
     color: black;
 }
