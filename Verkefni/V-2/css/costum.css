@@ -1,0 +1,74 @@
+.percent {
+    background-image: url(../images/values-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: none; 
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+}
+#tafla {
+    display: none;
+}
+#myndir {
+    display: none;
+}
+#cssgrid {
+    display: none;
+}
+.container center {
+    display: none;
+}
+#button {
+    display: none;
+}
+#none {
+    display: none;
+}
+.button {
+    display: none;
+}
+.descri {
+    padding-left: 0.5em;
+}
+.footer {
+    background-color: rgb(23,144,135);
+    background-size: cover;
+    max-width: none;
+}
+.botn {
+    color: white;
+    max-width: none;
+}
+.simi {
+    transform: rotate(5deg);
+}
+.hringur { 
+    border: 2px white solid;
+    border-radius: 50%;
+    width: 1.7em;
+    margin: 0 auto;
+    padding: .4em;
+    color: white;
+} 
+.col-3-toppur {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.col-3-midja {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.copy {
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.container .botn {
+    padding: 0;
+}
