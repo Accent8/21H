@@ -183,9 +183,62 @@
       </article>
     </div>
   </section>
+</footer>
+<div class="schedule">
+  <table>
+    <caption>Schedule of something</caption>
+    <thead>
+        <tr> 
+            <th scope="col">WHO</th>
+            <th scope="col">WHERE</th>
+            <th scope="col">WHEN</th>
+            <th scope="col">CHECK IN</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td scope="row">Obcaecati deleniti</td>
+            <td>Lorem ipsum dolor, adipisicing elit</td>
+            <td>10:30 - 12:00</td>
+            <td><button>Register</button></td>
+        </tr>
+        <tr>
+            <td scope="row">Sit amet consectetur</td>
+            <td>Dolor saepe odio</td>
+            <td>13:30 - 17:00</td>
+            <td><button>Register</button></td>
+        </tr>
+        <tr>
+            <td scope="row">Fuga corrupti commodi optio</td>
+            <td>Non eius odit, animi alias adipisci sed hic nisi.</td>
+            <td>22:30 - 00:00</td>
+            <td><button>Register</button></td>
+        </tr>
+        <tr>
+          <td scope="row">Obcaecati deleniti</td>
+          <td>Lorem ipsum dolor, adipisicing elit</td>
+          <td>10:30 - 12:00</td>
+          <td><button>Register</button></td>
+      </tr>
+      <tr>
+          <td scope="row">Sit amet consectetur</td>
+          <td>Dolor saepe odio</td>
+          <td>13:30 - 17:00</td>
+          <td><button>Register</button></td>
+      </tr>
+      <tr>
+          <td scope="row">Fuga corrupti commodi optio</td>
+          <td>Non eius odit, animi alias adipisci sed hic nisi.</td>
+          <td>22:30 - 00:00</td>
+          <td><button>Register</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
   <section class="container col-2" id="tafla">
-    <div>
-     <h2>Tafla</h2>
+    <div id="tafla2">
+     <h2>Tafla
+     </h2>
       <table>
         <caption>Titill töflu</caption>
         <thead>
@@ -227,27 +280,28 @@
         <p><button class="button-primary">Aðalhnappurinn</button></p>
       </section>
     </div>
-    <div id="form">
+    <img class="image" src="../V-2/images/placeholder2.png" alt="placeholder">
+    <div class="form" id="form">
       <div>
-        <h2>Form</h2>
+        Contact Us
         <div class="register">
-        <p>&nbsp;</p>
         <form action="#" method="GET">
-            <fieldset>nota klasa til að geta haft aðra forma með öðru útliti - sjá css
-                <legend>Titill formsins er í "Legend" taginu</legend>
-                <label>autofocus
+                <label class="center">
                     Nafn 
+                    <br>
                     <input type="text" 
                             name="nafn" 
+                            size="100%"
                             placeholder="Full name" 
                             required 
-                             
                             title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
                 </label>
                 <label>
                     Símanúmer
+                    <br>
                     <input  type="text" 
-                            name="sími" 
+                            name="sími"
+                            size="100%" 
                             placeholder="123 4567"
                             title="Vinsamlegast skráið aðeins 7 tölustafi"
                             required
@@ -255,19 +309,19 @@
                 </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
                 <label>
                     Tölvupóstur
+                    <br>
                     <input  type="email" 
                             name="tölvupóstur" 
                             placeholder="Email address" 
                             required>
                     </label>
-                <label>
+                <label id="none">
                     Dagsetning
                     <input  type="date" 
                             name="dagsetning" 
                             required>
                 </label>
-                <br>
-                <label>
+                <label id="none">
                     Fjöldi 
                     <select name="fjöldi">
                         <option value="0" selected></option>
@@ -279,22 +333,21 @@
                     </select>
                     stykki
                 </label>
-                <br><!-- til að árgerð leggist ekki upp að select -->
-                <label for="árgerð">
+                <label for="árgerð" id="none">
                         Árgerð:
                         <input type="checkbox" name="árgerð 1" value="1965"> 1965, 
                         <input type="checkbox" name="árgerð 1" value="1965"> 1975, 
                         <input type="checkbox" name="árgerð 2" value="1985" > 1985. 
                 </label> 
-                <br><!-- til að Litur leggist ekki upp að Árgerð -->
-                <label for="litur">
+
+                <label for="litur" id="none">
                         Litur:
                         <input type="radio" name="litur" value="Rauður"> Rauður,  
                         <input type="radio" name="litur" value="Svartur"> Svartur. 
                 </label>
                 <label>
-                <br>
-                    Athugasemdir <!--https://www.w3schools.com/tags/att_textarea_rows.asp-->
+                    Athugasemdir
+                    <br>
                     <textarea rows="4" name="Athugasemdir"></textarea>
                 </label>
                     <input type="submit" name="submit" value="Panta">
@@ -335,59 +388,5 @@
 <p class="copy">&copy; 2020 Hreimur Logi Kristjánsson</p>
   <hr>
   <p><a href=#top class="button">Efst á síðu</a></p>
-</footer>
-    <h1>Verkefni 2</h1>
-    <h3>Dagskrá í töflu sem aðlagast öllum skjástærðum</h3>
-    <div class="schedule">
-      <table>
-        <caption>Schedule of something</caption>
-        <thead>
-            <tr> 
-                <th scope="col">WHO</th>
-                <th scope="col">WHERE</th>
-                <th scope="col">WHEN</th>
-                <th scope="col">CHECK IN</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td scope="row">Obcaecati deleniti</td>
-                <td>Lorem ipsum dolor, adipisicing elit</td>
-                <td>10:30 - 12:00</td>
-                <td><button>Register</button></td>
-            </tr>
-            <tr>
-                <td scope="row">Sit amet consectetur</td>
-                <td>Dolor saepe odio</td>
-                <td>13:30 - 17:00</td>
-                <td><button>Register</button></td>
-            </tr>
-            <tr>
-                <td scope="row">Fuga corrupti commodi optio</td>
-                <td>Non eius odit, animi alias adipisci sed hic nisi.</td>
-                <td>22:30 - 00:00</td>
-                <td><button>Register</button></td>
-            </tr>
-            <tr>
-              <td scope="row">Obcaecati deleniti</td>
-              <td>Lorem ipsum dolor, adipisicing elit</td>
-              <td>10:30 - 12:00</td>
-              <td><button>Register</button></td>
-          </tr>
-          <tr>
-              <td scope="row">Sit amet consectetur</td>
-              <td>Dolor saepe odio</td>
-              <td>13:30 - 17:00</td>
-              <td><button>Register</button></td>
-          </tr>
-          <tr>
-              <td scope="row">Fuga corrupti commodi optio</td>
-              <td>Non eius odit, animi alias adipisci sed hic nisi.</td>
-              <td>22:30 - 00:00</td>
-              <td><button>Register</button></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
 </body>
 </html>

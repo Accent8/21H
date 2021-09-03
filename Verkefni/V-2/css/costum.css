@@ -8,13 +8,13 @@
     padding-bottom: 3em;
     color: white;
 }
-#tafla {
-    display: none;
-}
 #myndir {
     display: none;
 }
 #cssgrid {
+    display: none;
+}
+#tafla2 {
     display: none;
 }
 .container center {
@@ -71,4 +71,24 @@
 }
 .container .botn {
     padding: 0;
+}
+.image {
+    max-width: auto;
+    height: auto;
+    border: 2px solid black;
+}
+.register {
+    border: 1px solid gray;
+}
+.schedule {
+    align-items: center;
+    text-align: center;   
+}
+.center {
+    padding-left: 1em;
+}
+@media screen and (max-width: 48em) {
+    section .container{
+        grid-template-columns: 1fr;
+    }
 }
