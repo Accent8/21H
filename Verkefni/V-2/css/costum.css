@@ -73,22 +73,55 @@
     padding: 0;
 }
 .image {
-    max-width: auto;
+    max-width: 100%;
     height: auto;
     border: 2px solid black;
 }
 .register {
     border: 1px solid gray;
 }
-.schedule {
-    align-items: center;
-    text-align: center;   
-}
 .center {
     padding-left: 1em;
 }
+table {
+    align-items: center;
+    text-align: center;
+}
+tr:nth-of-type(even) { 
+    background: #eee; 
+}
+.centerTable { margin: 0px auto; }
 @media screen and (max-width: 48em) {
+
     section .container{
         grid-template-columns: 1fr;
     }
+	table, thead, tbody, th, td, tr, caption { 
+		display: block; 
+	}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	tr { border: 1px solid #ccc; }
+	td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	td:nth-of-type(1):before { content: "WHO"; }
+	td:nth-of-type(2):before { content: "WHERE"; }
+	td:nth-of-type(3):before { content: "WHEN"; }
+	td:nth-of-type(4):before { content: "CHECK IN"; }
+
 }

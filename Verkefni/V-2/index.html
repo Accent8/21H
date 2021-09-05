@@ -184,8 +184,8 @@
     </div>
   </section>
 </footer>
-<div class="schedule">
-  <table>
+<div>
+  <table class="schedule centerTable">
     <caption>Schedule of something</caption>
     <thead>
         <tr> 
@@ -197,37 +197,37 @@
     </thead>
     <tbody>
         <tr>
-            <td scope="row">Obcaecati deleniti</td>
+            <td>Obcaecati deleniti</td>
             <td>Lorem ipsum dolor, adipisicing elit</td>
             <td>10:30 - 12:00</td>
             <td><button>Register</button></td>
         </tr>
         <tr>
-            <td scope="row">Sit amet consectetur</td>
+            <td>Sit amet consectetur</td>
             <td>Dolor saepe odio</td>
             <td>13:30 - 17:00</td>
             <td><button>Register</button></td>
         </tr>
         <tr>
-            <td scope="row">Fuga corrupti commodi optio</td>
+            <td>Fuga corrupti commodi optio</td>
             <td>Non eius odit, animi alias adipisci sed hic nisi.</td>
             <td>22:30 - 00:00</td>
             <td><button>Register</button></td>
         </tr>
         <tr>
-          <td scope="row">Obcaecati deleniti</td>
+          <td>Obcaecati deleniti</td>
           <td>Lorem ipsum dolor, adipisicing elit</td>
           <td>10:30 - 12:00</td>
           <td><button>Register</button></td>
       </tr>
       <tr>
-          <td scope="row">Sit amet consectetur</td>
+          <td>Sit amet consectetur</td>
           <td>Dolor saepe odio</td>
           <td>13:30 - 17:00</td>
           <td><button>Register</button></td>
       </tr>
       <tr>
-          <td scope="row">Fuga corrupti commodi optio</td>
+          <td>Fuga corrupti commodi optio</td>
           <td>Non eius odit, animi alias adipisci sed hic nisi.</td>
           <td>22:30 - 00:00</td>
           <td><button>Register</button></td>
@@ -280,7 +280,9 @@
         <p><button class="button-primary">Aðalhnappurinn</button></p>
       </section>
     </div>
-    <img class="image" src="../V-2/images/placeholder2.png" alt="placeholder">
+    <p> Hafðu samband
+    <img src="../V-2/images/placeholder2.png" alt="placeholder">
+  </p>
     <div class="form" id="form">
       <div>
         Contact Us
@@ -291,23 +293,23 @@
                     <br>
                     <input type="text" 
                             name="nafn" 
-                            size="100%"
+                            size="auto"
                             placeholder="Full name" 
                             required 
                             title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
                 </label>
-                <label>
+                <label class="center">
                     Símanúmer
                     <br>
                     <input  type="text" 
                             name="sími"
-                            size="100%" 
+                            size="auto" 
                             placeholder="123 4567"
                             title="Vinsamlegast skráið aðeins 7 tölustafi"
                             required
                             pattern="\d{3}(?:[\-\s]?)\d{4}">
                 </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
-                <label>
+                <label class="center">
                     Tölvupóstur
                     <br>
                     <input  type="email" 
@@ -345,7 +347,7 @@
                         <input type="radio" name="litur" value="Rauður"> Rauður,  
                         <input type="radio" name="litur" value="Svartur"> Svartur. 
                 </label>
-                <label>
+                <label class="center">
                     Athugasemdir
                     <br>
                     <textarea rows="4" name="Athugasemdir"></textarea>
