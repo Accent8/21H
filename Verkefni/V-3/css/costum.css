@@ -39,14 +39,10 @@
 }
 .topnav {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 2fr 1fr 4fr;
     background-color: rgb(23,144,135);
     color: white;
     padding-top: 0em;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    left: 0;
     width: 100%;
 }
 .topnav a {
@@ -64,7 +60,6 @@
     background-color: white;
 }
 .topnav p {
-    margin: 0;
     letter-spacing: .1em;
     text-align: center;
 }
@@ -80,11 +75,19 @@ section ul a {
     border-right: 1px solid #aaa;
     text-decoration: none;
 }
-.section .logo {
+.section li {
     float: left;
-    display: block;
-    font-size: 2em;
-    padding: 10px 20px;
+}
+.section li a {
+    display: row;
+}
+.header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+}
+#menu-btn {
+    display: none;
 }
 .botn {
     color: white;
@@ -213,5 +216,73 @@ tr:nth-of-type(even) {
 	td:nth-of-type(2):before { content: "WHERE"; }
 	td:nth-of-type(3):before { content: "WHEN"; }
 	td:nth-of-type(4):before { content: "CHECK IN"; }
+    .topnav {
+        grid-template-columns: 4fr 1fr;
+    }
+    .section li {
+        float: unset;
+    }
+    .section .logo {
+        float: left;
+        display: block;
+        font-size: 2em;
+        padding: 10px 20px;
+    }
+    .section .menu {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+    }
+    .section .menu-icon {
+        padding: 28px 20px;
+        position: relative;
+        float: right;
+        cursor: pointer;
+    }
+    .section .menu-icon .nav-icon {
+        background: white;
+        display: block;
+        height: 2px;
+        width: 18px;
+        position: relative;
+        transition: background .2s ease-out;
+    }
+    .section .menu-icon .nav-icon::before {
+        background: white;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: 5px;
+    }
+    .section .menu-icon .nav-icon::after {
+        background: white;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: -5px;
+    }
+    .section .menu-btn {
+        display: none;
+    }
+    .section .menu-btn:checked ~ .menu {
+        max-height: 550px;
+    }
+    .section .menu-btn:checked ~ .menu-icon .nav-icon {
+        background: transparent;
+    }
+    .section .menu-btn:checked ~ .menu-icon .nav-icon::before {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .section .menu-btn:checked ~ .menu-icon .nav-icon:after {
+        transform: rotate(+45deg);
+        top: 0;
+    }
     
 }
