@@ -82,6 +82,9 @@ section ul a {
 }
 .section .logo {
     float: left;
+    display: block;
+    font-size: 2em;
+    padding: 10px 20px;
 }
 .botn {
     color: white;
