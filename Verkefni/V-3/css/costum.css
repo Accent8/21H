@@ -44,7 +44,7 @@
     color: white;
     padding-top: 0em;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     top: 0;
     left: 0;
     width: 100%;
@@ -67,6 +67,21 @@
     margin: 0;
     letter-spacing: .1em;
     text-align: center;
+}
+.section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+section ul a {
+    display: block;
+    padding: 20px;
+    border-right: 1px solid #aaa;
+    text-decoration: none;
+}
+.section .logo {
+    float: left;
 }
 .botn {
     color: white;
@@ -164,7 +179,6 @@ tr:nth-of-type(even) {
   .icon-question:before {
     content: "\ea09";
   }
-
 @media screen and (max-width: 48em) {
     section .container{
         grid-template-columns: 1fr;
@@ -196,53 +210,5 @@ tr:nth-of-type(even) {
 	td:nth-of-type(2):before { content: "WHERE"; }
 	td:nth-of-type(3):before { content: "WHEN"; }
 	td:nth-of-type(4):before { content: "CHECK IN"; }
-    .menuinput {
-        display: none;
-    }
-    .menubutton,
-    .topmenu {
-        border: 1px solid #cecfd5;
-        border-radius: 6px;
-    }
-    .menubutton {
-        color: #0087cc;
-        cursor: pointer;
-        display: inline-block;
-        font-size: 18px;
-        padding: 5px 9px;
-        transition: all .25s ease;
-    }
-    .menubutton:hover {
-        color: #ff7b29;
-    }
-    .menuinput:checked + .menubutton {
-        box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.35);
-        color: #9799a7;
-    }
-    .menuinput:checked ~ .topnav {
-        /*max-height: 500px;*/
-        left: 1em
-    }
-    .topmenu {
-        list-style: none;
-        margin: 8px 0 0 0;
-        padding: 0;
-        width: 130px;
-        background-color: rgb(255, 251, 240);
-    }
-    .topmenu li {
-        border-bottom: 1px solid #cecfd5;
-    }
-    .topmenu li:last-child {
-        border-bottom: 0;
-    }
-    .topmenu a {
-        color: #0087cc;
-        display: block;
-        padding: 6px 12px;
-        text-decoration: none;
-    }
-    .topmenu a:hover {
-        color: #ff7b29;
-    }
+    
 }
