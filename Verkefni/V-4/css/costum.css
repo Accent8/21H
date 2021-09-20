@@ -29,12 +29,17 @@ h3 {
 .descri h4 {
     color: white;
 }
+.socials {
+    display: row;
+}
 .socials a{
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .socials a:hover {
     color: orange;
+}
+a {
+    color: white;
 }
 #myndir {
     display: none;
