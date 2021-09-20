@@ -18,6 +18,25 @@
 html {
   scroll-behavior: smooth;
 }
+/* Root */
+
+:root {
+  --h1: rgb(13,13,13);
+  --h2: rgb(13,13,13);
+  --h3: rgb(13,13,13);
+  --h4: rgb(13,13,13);
+  --h5: rgb(13,13,13);
+  --h6: rgb(13,13,13);
+  --p: rgb(13,13,13);
+  --a: rgb(0,0,255);
+  --visited: rgb(255,140,0);
+  --hover: rgb(255,0,255);
+  --blockqoute: rgb(13,13,13);
+  --code: rgb(0,255,0);
+  --table: rgb(13,13,13);
+  --form: rgb(13,13,13);
+  --body: rgb(13,13,13);
+}
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -27,11 +46,35 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Roboto Slab', serif;
-  color: #222; 
+  color: var(--body); 
 }
   
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1{
+  color: var(--h1);
+}
+h2 {
+  color: var(--h2);
+}
+h3 {
+  color: var(--h3);
+}
+h4 {
+  color: var(--h4);
+}
+h5 {
+  color: var(--h5);
+}
+h6 {
+  color: var(--h6);
+}
+p {
+  color: var(--p);
+}
+a {
+  color: var(--a);
+}
 h1, h2, h3 {
   font-weight: 300; 
   margin: .5em 0;
