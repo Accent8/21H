@@ -77,13 +77,13 @@ h3{font-size:1.6em;line-height:1.6}
 @media screen and (min-width:48em){
 .col-2f,.col-3f,.col-4f,.col-5f,.col-6f{grid-gap:1em}
 }
-.percent{background-image:url(images/values-bg.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;max-width:none;padding-top:3em;padding-bottom:3em;color:#fff}
+.percent{background-image:url(../images/values-bg.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;max-width:none;padding-top:3em;padding-bottom:3em;color:#fff}
 .percent p{color:#fff}
 article ul{list-style:none}
 article li a{text-decoration:none}
-article li a:hover{color:#ff4500}
+article li a:hover{color:orangered}
 article a{text-decoration:none}
-article a:hover{color:#ff4500}
+article a:hover{color:orangered}
 .logo{color:#fff}
 #letur h3{color:#000}
 .footer p{color:#fff}
@@ -92,7 +92,7 @@ h3{color:#fff}
 .descri h4{color:#fff}
 .socials{display:row}
 .socials a{text-decoration:none}
-.socials a:hover{color:orange}
+.socials a:hover{color:orangered}
 a{color:#fff}
 #myndir{display:none}
 #cssgrid{display:none}
@@ -110,7 +110,7 @@ a{color:#fff}
 li{margin:0}
 .section{max-height:100%}
 .section ul{margin:0;padding:0;list-style:none;overflow:hidden}
-.section ul a{padding:20px;border-right:1px solid #aaa;text-decoration:none}
+.section ul a{padding:20px;text-decoration:none}
 .section li{float:left}
 .section li a{display:row}
 .footer ul{list-style:none;overflow:hidden}
@@ -132,25 +132,21 @@ li{margin:0}
 table{align-items:center;text-align:center}
 tr:nth-of-type(even){background:#eee}
 .centerTable{margin:0 auto}
-@font-face{font-family:icomoon;src:url(fonts/icomoon.eot?q5tlg7);src:url(fonts/icomoon.eot?q5tlg7#iefix) format('embedded-opentype'),url(fonts/icomoon.ttf?q5tlg7) format('truetype'),url(fonts/icomoon.woff?q5tlg7) format('woff'),url(fonts/icomoon.svg?q5tlg7#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:icomoon;src:url(../fonts/icomoon.eot?87wlkv);src:url(../fonts/icomoon.eot?87wlkv#iefix) format('embedded-opentype'),url(../fonts/icomoon.ttf?87wlkv) format('truetype'),url(../fonts/icomoon.woff?87wlkv) format('woff'),url(../fonts/icomoon.svg?87wlkv#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
 [class*=" icon-"],[class^=icon-]{font-family:icomoon!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-.icon-coin-dollar:before{content:"\e94e"}
-.icon-location2:before{content:"\e948"}
+.icon-file-picture:before{content:"\e927"}
+.icon-file-music:before{content:"\e928"}
+.icon-file-video:before{content:"\e92a"}
+.icon-ticket:before{content:"\e939"}
+.icon-location:before{content:"\e947"}
 .icon-Contact-Us:before{content:"\e972"}
-.icon-fire:before{content:"\e9a9"}
-.icon-question:before{content:"\ea09"}
-@font-face{font-family:icomoon;src:url(fonts2/icomoon.eot?4bnqa4);src:url(fonts2/icomoon.eot?4bnqa4#iefix) format('embedded-opentype'),url(fonts2/icomoon.ttf?4bnqa4) format('truetype'),url(fonts2/icomoon.woff?4bnqa4) format('woff'),url(fonts2/icomoon.svg?4bnqa4#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
-[class*=" icon-"],[class^=icon-]{font-family:icomoon!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .icon-link:before{content:"\e9cb"}
+.icon-question:before{content:"\ea09"}
+.icon-embed2:before{content:"\ea80"}
 .icon-twitter:before{content:"\ea96"}
 .icon-youtube:before{content:"\ea9d"}
 .icon-twitch:before{content:"\ea9f"}
 .icon-Program:before{content:"\eab0"}
-@font-face{font-family:icomoon;src:url(fonts3/icomoon.eot?hubeo2);src:url(fonts3/icomoon.eot?hubeo2#iefix) format('embedded-opentype'),url(fonts3/icomoon.ttf?hubeo2) format('truetype'),url(fonts3/icomoon.woff?hubeo2) format('woff'),url(fonts3/icomoon.svg?hubeo2#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
-[class*=" icon-"],[class^=icon-]{font-family:icomoon!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-.icon-image:before{content:"\e90d"}
-.icon-file-music:before{content:"\e928"}
-.icon-file-video:before{content:"\e92a"}
 .icon-file-pdf:before{content:"\eadf"}
 .icon-file-word:before{content:"\eae1"}
 @media screen and (max-width:48em){
