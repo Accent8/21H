@@ -1,0 +1,460 @@
+.percent {
+    background-image: url(../images/The-Rolling-Stones.jpeg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: none; 
+    padding-top: 20em;
+    padding-bottom: 3em;
+    color: white;
+}
+.percent p {
+    color: white;
+}
+.grovy {
+    color: white;
+    padding: 10px 20px;
+}
+.epic {
+    margin: 0;
+}
+.container2 {
+    text-align: center;
+    width: 100%;
+}
+.container2 span{
+    text-transform: uppercase;
+    display: block;
+}
+.text1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 45px;
+    margin-bottom: 20px;
+    background: white;
+    position: relative;
+    animation: text 5s 1;
+}
+.text2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255,0,0);
+}
+article ul {
+    list-style: none;
+}
+article li a {
+    text-decoration: none;
+}
+article li a:hover {
+    color: orangered;
+}
+article a {
+    text-decoration: none;
+}
+article a:hover {
+    color: orangered;
+}
+.logo {
+    padding-bottom: .5em;
+    color: white;
+}
+#letur h3 {
+    color: black;
+}
+.footer p {
+    color: white;
+}
+h3 {
+    color: white;
+}
+.centre h4 {
+    color: white;
+}
+.descri h4 {
+    color: white;
+}
+.socials {
+    display: row;
+}
+.socials a{
+    text-decoration: none;  
+}
+.socials a:hover {
+    color: orange;
+}
+a {
+    color: white;
+}
+.container center {
+    display: none;
+}
+#phone{
+    display: none;
+}
+#none {
+    display: none;
+}
+.button {
+    max-width: 10%;
+    padding: 0;
+    border: none;
+}
+.button-primary {
+    text-decoration: none;
+}
+.button a {
+    color:white;
+    background-color: rgb(202,49,60);
+    border-radius: 10px;
+    padding: .4em;
+}
+.takki {
+    align-items: center;
+    text-align: center;
+}
+.descri {
+    padding-left: 0.5em;
+}
+.footer {
+    background-size: cover;
+    max-width: none;
+}
+.topnav {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 4fr;
+    background-color: rgb(202,49,60);
+    color: white;
+    padding-top: 0em;
+    width: 100%;
+}
+.topnav a {
+    color: white;
+    text-decoration: none;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: left;
+    text-align: left;
+    text-decoration: none;
+    padding-right: 1em;
+    padding: 6px 12px;
+}
+.topnav a:hover {
+    color: rgb(202,49,60);
+    background-color: white;
+}
+.topnav p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: .1em;
+    text-align: center;
+}
+li {
+    margin: 0;
+}
+.section {
+    max-height: 100%;
+}
+.section ul {
+    margin: 0;
+    padding-left: 1em;
+    list-style: none;
+    overflow: hidden;
+}
+.section ul a {
+    padding: 20px;
+    text-decoration: none;
+}
+.section li {
+    float: left;
+}
+.section li a {
+    display: row;
+}
+.footer ul {
+    list-style: none;
+    overflow: hidden;
+}
+.footer li {
+    padding: .5em;
+}
+.footer li a {
+    color: white;
+}
+.footer li a:hover {
+    color: rgb(202,49,60);
+    padding: .5em;
+    background-color: white;
+}
+.header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+}
+#menu-btn {
+    display: none;
+}
+.botn {
+    color: white;
+    max-width: none;
+}
+.footer {
+    background-color: rgb(202,49,60);
+}
+.simi {
+    transform: rotate(5deg);
+}
+.hringur { 
+    border: 2px white solid;
+    border-radius: 50%;
+    width: 1.7em;
+    margin: 0 auto;
+    padding: .4em;
+    color: white;
+} 
+.col-3-toppur {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    text-align: center;
+}
+.col-3-midja {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.copy {
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.container .botn {
+    padding: 0;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+.register {
+    border: 1px solid gray;
+}
+.center {
+    padding-left: 1em;
+}
+table {
+    align-items: center;
+    text-align: center;
+}
+tr:nth-of-type(even) { 
+    background: #eee; 
+}
+.centerTable { margin: 0px auto; }
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?87wlkv');
+    src:  url('../fonts/icomoon.eot?87wlkv#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?87wlkv') format('truetype'),
+      url('../fonts/icomoon.woff?87wlkv') format('woff'),
+      url('../fonts/icomoon.svg?87wlkv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-file-picture:before {
+    content: "\e927";
+  }
+  .icon-file-music:before {
+    content: "\e928";
+  }
+  .icon-file-video:before {
+    content: "\e92a";
+  }
+  .icon-ticket:before {
+    content: "\e939";
+  }
+  .icon-location:before {
+    content: "\e947";
+  }
+  .icon-Contact-Us:before {
+    content: "\e972";
+  }
+  .icon-link:before {
+    content: "\e9cb";
+  }
+  .icon-question:before {
+    content: "\ea09";
+  }
+  .icon-embed2:before {
+    content: "\ea80";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  .icon-twitch:before {
+    content: "\ea9f";
+  }
+  .icon-Program:before {
+    content: "\eab0";
+  }
+  .icon-file-pdf:before {
+    content: "\eadf";
+  }
+  .icon-file-word:before {
+    content: "\eae1";
+  }
+@media screen and (min-width: 48em) {
+    @keyframes text {
+        0% {
+            color: white;
+            margin-bottom: -55px;
+        } 
+        30% {
+            margin-bottom: -55px;
+        }
+     }
+}
+@media screen and (max-width: 48em) {
+    #phone {
+        display: block;
+    }
+    .grovy {
+        font-size: 2em;
+    }
+    .col-3-toppur {
+        grid-template-columns: 1fr 2fr;
+    }
+    .text1 {
+        color: black;
+        font-size: 20px;
+        font-weight: 350;
+        line-height: 45px;
+        background: white;
+        position: relative;
+        animation: text 5s 1;
+    }
+    .text2 {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(202,49,60);
+    }
+    section .container{
+        grid-template-columns: 1fr;
+    }
+	table, thead, tbody, th, td, tr, caption { 
+		display: block; 
+	}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	tr { border: 1px solid #ccc; }
+	td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	td:nth-of-type(1):before { content: "WHO"; }
+	td:nth-of-type(2):before { content: "WHERE"; }
+	td:nth-of-type(3):before { content: "WHEN"; }
+	td:nth-of-type(4):before { content: "CHECK IN"; }
+    .topnav {
+        grid-template-columns: 4fr 1fr;
+    }
+    .section li {
+        float: unset;
+    }
+    .section .logo {
+        float: left;
+        display: block;
+        font-size: 2em;
+        padding: 10px 20px;
+    }
+    .section .menu {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+    }
+    .section .menu-icon {
+        padding: 28px 20px;
+        position: relative;
+        float: right;
+        cursor: pointer;
+    }
+    .section .menu-icon .nav-icon {
+        background: white;
+        display: block;
+        height: 2px;
+        width: 18px;
+        position: relative;
+        transition: background .2s ease-out;
+    }
+    .section .menu-icon .nav-icon::before {
+        background: white;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: 5px;
+    }
+    .section .menu-icon .nav-icon::after {
+        background: white;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: -5px;
+    }
+    .section .menu-btn {
+        display: none;
+    }
+    .section .menu-btn:checked ~ .menu {
+        max-height: 550px;
+    }
+    .section .menu-btn:checked ~ .menu-icon .nav-icon {
+        background: transparent;
+    }
+    .section .menu-btn:checked ~ .menu-icon .nav-icon::before {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .section .menu-btn:checked ~ .menu-icon .nav-icon:after {
+        transform: rotate(+45deg);
+        top: 0;
+    }
+    
+}
