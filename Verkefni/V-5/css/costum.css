@@ -57,6 +57,7 @@ article a:hover {
     color: orangered;
 }
 .logo {
+    padding-bottom: .5em;
     color: white;
 }
 #letur h3 {
