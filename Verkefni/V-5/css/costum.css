@@ -111,7 +111,6 @@ a {
     padding-left: 0.5em;
 }
 .footer {
-    background-color: rgb(23,144,135);
     background-size: cover;
     max-width: none;
 }
@@ -188,7 +187,6 @@ li {
     display: none;
 }
 .botn {
-    background-image: linear-gradient(to right,rgb(23,125,140),rgb(20,150,116));
     color: white;
     max-width: none;
 }
