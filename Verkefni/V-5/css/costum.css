@@ -11,6 +11,10 @@
 .percent p {
     color: white;
 }
+.grovy {
+    color: white;
+    padding: 10px 20px;
+}
 .epic {
     margin: 0;
 }
@@ -325,6 +329,9 @@ tr:nth-of-type(even) {
      }
 }
 @media screen and (max-width: 48em) {
+    .grovy {
+        font-size: 2em;
+    }
     .col-3-toppur {
         grid-template-columns: 2fr 1fr;
     }
