@@ -97,7 +97,6 @@ a {
     display: none;
 }
 .button {
-    max-width: 10%;
     padding: 0;
     border: none;
 }
@@ -183,8 +182,9 @@ li {
 }
 .footer li a:hover {
     color: rgb(202,49,60);
-    padding: .5em;
+    padding: .4em;
     background-color: white;
+    border-radius: 10px;
 }
 .header .menu {
     clear: none;
