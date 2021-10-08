@@ -179,6 +179,7 @@ li {
 }
 .footer li a {
     color: white;
+    text-decoration: none;
 }
 .footer li a:hover {
     color: rgb(202,49,60);
@@ -363,10 +364,9 @@ tr:nth-of-type(even) {
 		padding-right: 10px; 
 		white-space: nowrap;
 	}
-	td:nth-of-type(1):before { content: "WHO"; }
-	td:nth-of-type(2):before { content: "WHERE"; }
-	td:nth-of-type(3):before { content: "WHEN"; }
-	td:nth-of-type(4):before { content: "CHECK IN"; }
+	td:nth-of-type(1):before { content: "WHERE"; }
+	td:nth-of-type(2):before { content: "WHEN"; }
+	td:nth-of-type(3):before { content: "CHECK IN"; }
     .topnav {
         grid-template-columns: 4fr 1fr;
     }
