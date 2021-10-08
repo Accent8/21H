@@ -113,6 +113,9 @@ a {
     align-items: center;
     text-align: center;
 }
+#mobile {
+    display: none;
+}
 .descri {
     padding-left: 0.5em;
 }
@@ -319,6 +322,15 @@ tr:nth-of-type(even) {
     #phone {
         display: block;
     }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    .section ul a {
+        padding: 0;
+      }
     .grovy {
         font-size: 2em;
     }
