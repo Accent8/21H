@@ -5,24 +5,10 @@ body {
 #phone {
   display: block;
 }
-.schedule {
-  margin-top: 1em;
-  background-color: white;
-}
-.perhaps {
-  margin: 0px auto;
-}
-.centerTable {
-  margin: 0px auto;
-}
-table {
-  align-items: center;
-  text-align: center;
-}
-caption {
-  color: rgb(202,49,60);
-}
 @media screen and (max-width: 48em) {
+.section ul a {
+  padding: 0;
+}
 .schedule {
   margin: auto;
 }
