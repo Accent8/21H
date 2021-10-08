@@ -116,6 +116,12 @@ a {
 #mobile {
     display: none;
 }
+#schedule {
+    display: none;
+}
+#samband {
+    display: none;
+}
 .descri {
     padding-left: 0.5em;
 }
@@ -243,7 +249,8 @@ li {
     border: 2px solid black;
 }
 .register {
-    border: 1px solid gray;
+    text-align: center;
+    align-items: center;
 }
 .center {
     padding-left: 1em;
@@ -251,6 +258,16 @@ li {
 table {
     align-items: center;
     text-align: center;
+}
+a {
+    color: black;
+}
+td a {
+    text-decoration: none;
+    color: black;
+}
+td a:hover {
+    color: black;
 }
 tr:nth-of-type(even) { 
     background: #eee; 
@@ -319,7 +336,10 @@ tr:nth-of-type(even) {
      }
 }
 @media screen and (max-width: 48em) {
-    #phone {
+    #schedule {
+        display: block;
+    }
+    #samband {
         display: block;
     }
     #desktop {
