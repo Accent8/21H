@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" type="image/svg" href="images/RSlogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../V-7/css/base.css">
+    <link rel="stylesheet" href="../V-7/css/grid.css"> 
+    <link rel="stylesheet" href="../V-7/css/costum.css"> 
+    <link rel="stylesheet" href="../V-7/css/contact-us.css">
+</head>
+<body>
+    <section class="topnav section">
+        <p class="grovy">Stevens & Lido</p>
+        <input class="menu-btn big" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+            <li><a href="index.html" target="_blank"><span class="icon-Home"></span>Home Page</a></li>
+            <li><a href="https://goo.gl/maps/g555M57MZVcydDXv5" target="_blank"><span class="icon-location"></span>Where?</a></li>
+            <li><a href=""><span class="icon-Contact-Us"></span>Contact Us</a></li>
+          </ul>
+      </section>
+    <section class="container" id="samband">
+        <div class="form" id="form">
+          <div class="centre">
+            Contact Us
+            <div class="register">
+            <form action="#" method="GET">
+                    <label class="center">
+                        Nafn 
+                        <br>
+                        <input type="text" 
+                                name="nafn" 
+                                size="auto"
+                                placeholder="Full name" 
+                                required 
+                                title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
+                    </label>
+                    <label class="center">
+                        Símanúmer
+                        <br>
+                        <input  type="text" 
+                                name="sími"
+                                size="auto" 
+                                placeholder="123 4567"
+                                title="Vinsamlegast skráið aðeins 7 tölustafi"
+                                required
+                                pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                    <label class="center">
+                        Tölvupóstur
+                        <br>
+                        <input  type="email" 
+                                name="tölvupóstur" 
+                                placeholder="Email address" 
+                                required>
+                        </label>
+                    <label id="none">
+                        Dagsetning
+                        <input  type="date" 
+                                name="dagsetning" 
+                                required>
+                    </label>
+                    <label id="none">
+                        Fjöldi 
+                        <select name="fjöldi">
+                            <option value="0" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        stykki
+                    </label>
+                    <label for="árgerð" id="none">
+                            Árgerð:
+                            <input type="checkbox" name="árgerð 1" value="1965"> 1965, 
+                            <input type="checkbox" name="árgerð 1" value="1965"> 1975, 
+                            <input type="checkbox" name="árgerð 2" value="1985" > 1985. 
+                    </label> 
+    
+                    <label for="litur" id="none">
+                            Litur:
+                            <input type="radio" name="litur" value="Rauður"> Rauður,  
+                            <input type="radio" name="litur" value="Svartur"> Svartur. 
+                    </label>
+                    <label class="center">
+                        Athugasemdir
+                        <br>
+                        <textarea rows="4" name="Athugasemdir"></textarea>
+                    </label>
+                        <input type="submit" name="submit" value="Panta">
+                </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+</body>

@@ -1,0 +1,9 @@
+body {
+    background-image: url(../images/RSlogo.png);
+    background-size: 15%;
+    background-repeat: repeat;
+  }
+#samband {
+    display: block;
+    margin: 1em;
+}
