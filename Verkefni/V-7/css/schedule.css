@@ -6,6 +6,9 @@ body {
 #phone {
   display: block;
 }
+button a {
+  color: black;
+}
 .schedule {
   background-color: white;
   border-radius: 10px;
