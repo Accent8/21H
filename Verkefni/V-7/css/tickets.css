@@ -5,5 +5,29 @@ body {
   }
 #samband {
     display: block;
-    background: white;
+    margin: 4em;
+}
+.centerTable {
+    margin: 0px auto;
+}
+.container {
+    margin: 4em;
+}
+.tafla {
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    padding: 1em;
+}
+.centre {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.form {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.takki {
+    text-align: center;
+    align-items: center;
 }

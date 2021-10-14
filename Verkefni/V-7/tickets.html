@@ -25,13 +25,13 @@
           </ul>
       </section>
     <section class="container" id="samband">
-        <div class="form" id="form">
-          <div class="centre">
+        <div class="form centerTable" id="form">
+          <div class="centre tafla">
             Contact Us
             <div class="register">
             <form action="#" method="GET">
                     <label class="center">
-                        Nafn 
+                        Name
                         <br>
                         <input type="text" 
                                 name="nafn" 
@@ -41,7 +41,7 @@
                                 title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
                     </label>
                     <label class="center">
-                        Símanúmer
+                        Phone Number
                         <br>
                         <input  type="text" 
                                 name="sími"
@@ -52,21 +52,15 @@
                                 pattern="\d{3}(?:[\-\s]?)\d{4}">
                     </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
                     <label class="center">
-                        Tölvupóstur
+                        E-mail
                         <br>
                         <input  type="email" 
                                 name="tölvupóstur" 
                                 placeholder="Email address" 
                                 required>
                         </label>
-                    <label id="none">
-                        Dagsetning
-                        <input  type="date" 
-                                name="dagsetning" 
-                                required>
-                    </label>
                     <label>
-                        Fjöldi Miða
+                        Number Of Tickets
                         <select name="fjöldi">
                             <option value="1" selected>1</option>
                             <option value="2">2</option>
