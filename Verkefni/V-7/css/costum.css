@@ -158,7 +158,7 @@ a {
     text-align: center;
 }
 li {
-    margin: 0;
+    margin: 0.3em;
 }
 .section {
     max-height: 100%;
@@ -171,8 +171,14 @@ li {
     overflow: hidden;
 }
 .section ul a {
+    margin-right: 53.5%;
     padding: 20px;
     text-decoration: none;
+}
+.section ul a:hover {
+    padding: 0.5em;
+    margin-right: 53.5%;
+    border-radius: 10px;
 }
 .section li {
     float: left;
@@ -273,6 +279,9 @@ tr:nth-of-type(even) {
     background: #eee; 
 }
 .centerTable { margin: 0px auto; }
+.icon {
+    margin-right: 0.4em;
+}
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?8o3n9p');
