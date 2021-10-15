@@ -12,6 +12,7 @@
     color: white;
 }
 .grovy {
+    font-size: 1.3em;
     color: white;
     padding: 10px 20px;
 }
@@ -171,14 +172,8 @@ li {
     overflow: hidden;
 }
 .section ul a {
-    margin-right: 53.5%;
     padding: 20px;
     text-decoration: none;
-}
-.section ul a:hover {
-    padding: 0.5em;
-    margin-right: 53.5%;
-    border-radius: 10px;
 }
 .section li {
     float: left;
@@ -361,11 +356,18 @@ tr:nth-of-type(even) {
         display: block;
     }
     .section ul a {
+        margin-right: 53.5%;
+        padding: 20px;
+        text-decoration: none;
+    }
+    .section ul a:hover {
+        padding: 0.5em;
+        margin-right: 53.5%;
+        border-radius: 10px;
+    }
+    .section ul a {
         padding: 0;
       }
-    .grovy {
-        font-size: 2em;
-    }
     .col-3-toppur {
         grid-template-columns: 1fr 2fr;
     }
