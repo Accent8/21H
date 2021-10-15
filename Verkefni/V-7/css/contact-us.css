@@ -5,13 +5,15 @@ body {
   }
 #samband {
     display: block;
-    margin: 4em;
 }
 .centerTable {
     margin: 0px auto;
 }
 .container {
-    margin: 4em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
 }
 .form {
     display: flex;
@@ -20,13 +22,12 @@ body {
     background-color: white;
     border-color: black;
     border-radius: 10px;
-    padding: 1em;
+    padding: 2em;
 }
 form {
     text-align: center;
     align-items: center;
 }
 .takki {
-    text-align: center;
-    align-items: center;
+    margin-top: 1em;
 }

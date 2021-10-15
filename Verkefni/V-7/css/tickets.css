@@ -1,0 +1,33 @@
+body {
+    background-image: url(../images/RSlogo.png);
+    background-size: 15%;
+    background-repeat: repeat;
+  }
+#samband {
+    display: block;
+}
+.centerTable {
+    margin: 0px auto;
+}
+.container {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+}
+.form {
+    display: flex;
+}
+.tafla {
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    padding: 2em;
+}
+form {
+    text-align: center;
+    align-items: center;
+}
+.takki {
+    margin-top: 1em;
+}

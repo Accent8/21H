@@ -135,82 +135,63 @@
     </tbody>
   </table>
 </div>
-  <section class="container" id="samband">
-    <div class="form" id="form">
-      <div class="centre">
-        Contact Us
-        <div class="register">
-        <form action="#" method="GET">
-                <label class="center">
-                    Nafn 
-                    <br>
-                    <input type="text" 
-                            name="nafn" 
-                            size="auto"
-                            placeholder="Full name" 
-                            required 
-                            title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
-                </label>
-                <label class="center">
-                    Símanúmer
-                    <br>
-                    <input  type="text" 
-                            name="sími"
-                            size="auto" 
-                            placeholder="123 4567"
-                            title="Vinsamlegast skráið aðeins 7 tölustafi"
-                            required
-                            pattern="\d{3}(?:[\-\s]?)\d{4}">
-                </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
-                <label class="center">
-                    Tölvupóstur
-                    <br>
-                    <input  type="email" 
-                            name="tölvupóstur" 
-                            placeholder="Email address" 
-                            required>
-                    </label>
-                <label id="none">
-                    Dagsetning
-                    <input  type="date" 
-                            name="dagsetning" 
-                            required>
-                </label>
-                <label id="none">
-                    Fjöldi 
-                    <select name="fjöldi">
-                        <option value="0" selected></option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                    stykki
-                </label>
-                <label for="árgerð" id="none">
-                        Árgerð:
-                        <input type="checkbox" name="árgerð 1" value="1965"> 1965, 
-                        <input type="checkbox" name="árgerð 1" value="1965"> 1975, 
-                        <input type="checkbox" name="árgerð 2" value="1985" > 1985. 
-                </label> 
-
-                <label for="litur" id="none">
-                        Litur:
-                        <input type="radio" name="litur" value="Rauður"> Rauður,  
-                        <input type="radio" name="litur" value="Svartur"> Svartur. 
-                </label>
-                <label class="center">
-                    Athugasemdir
-                    <br>
-                    <textarea rows="4" name="Athugasemdir"></textarea>
-                </label>
-                    <input type="submit" name="submit" value="Panta">
-            </fieldset>
-        </form>
-      </div>
+<section class="container" id="samband">
+  <div class="form centerTable" id="form">
+    <div class="centre tafla">
+      <div class="register">
+      <form action="#" method="GET">
+              <label class="center">
+                  Name
+                  <br>
+                  <input type="text" 
+                          name="nafn" 
+                          size="auto"
+                          placeholder="Full name" 
+                          required 
+                          title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
+              </label>
+              <label class="center">
+                  Phone Number
+                  <br>
+                  <input  type="text" 
+                          name="sími"
+                          size="auto" 
+                          placeholder="123 4567"
+                          title="Vinsamlegast skráið aðeins 7 tölustafi"
+                          required
+                          pattern="\d{3}(?:[\-\s]?)\d{4}">
+              </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+              <label class="center">
+                  E-mail
+                  <br>
+                  <input  type="email" 
+                          name="tölvupóstur" 
+                          placeholder="Email address" 
+                          required>
+                  </label>
+              <label>
+                  Number Of Tickets
+                  <select name="fjöldi">
+                      <option value="1" selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                  </select>
+              </label>
+              <label for="árgerð">
+                      Sæta staða: <br>
+                      <input type="checkbox" name="sæti 1" value="1965"> A : Vinstri Stúka <br>
+                      <input type="checkbox" name="sæti 2" value="1965"> B : Miðju Stúka <br>
+                      <input type="checkbox" name="sæti 3" value="1985" > C : Hægri Stúka <br>
+                      <input type="checkbox" name="sæti 4" value="1985" > D : Gólf <br>
+              </label>
+                  <input class="takki" type="submit" name="submit" value="Order">
+          </fieldset>
+      </form>
     </div>
-  </section>
+  </div>
+</section>
 </main>
 <footer class=" botn">
   <footer class=" col-3 footer">
